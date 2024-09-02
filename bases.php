@@ -20,11 +20,11 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link text-light" href="/bases.php">Les bases</a>
+                    <a class="nav-link text-light" href="/">Accueil</a>
                 </div>
             </div>
         </div>
     </nav>
-    <h1>Hello !</h1>
+    <h1>Ici ma page base!</h1>
 </body>
 </html>
