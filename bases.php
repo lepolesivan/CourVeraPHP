@@ -1,7 +1,7 @@
 <?php
 require 'partials/head.php'
 ?>
-<h1>Ici ma page base!</h1>
+<h1 style= "text-align: center" class="mb-5">Ici ma page base!</h1>
 <?php
 echo '<h2>Les balises</h2>';
 echo '<p class="fst-italic text-secondary"> Ici je suis dans les balises PHP</p>';
