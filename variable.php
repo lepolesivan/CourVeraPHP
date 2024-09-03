@@ -1,11 +1,13 @@
 <?php
     require 'partials/head.php'
 ?>
-    <h1>Les Variables en PHP</h1>
-    <h2>Variabe; déclarationt/ affectation / types</h2>
+    <hgroup style="text-align:center" class="mb-5">
+        <h1>Les Variables en PHP</h1>
+        <h2>Variabe; déclarationt/ affectation / types</h2>
+    </hgroup>
 
     <p>
-        Définition : une variable est un espace mémoire qui porte un nom et permettant de conserver une valeur. En PHP on déclare une variable avec le signe $.<br>
+       <span style="color: red">Définition</span> : une variable est un espace mémoire qui porte un nom et permettant de conserver une valeur. En PHP on déclare une variable avec le signe $.<br>
         Par convention, un nom de variable commence par une lettre minuscule, puis on met une majuscule à chaque mot. Il peut contenir des chiffres (jamais au début), ou un "_" (jamais au début car signification particulière en objet, ni à la fin).
     </p>
 
