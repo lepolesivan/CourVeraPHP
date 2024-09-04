@@ -3,6 +3,7 @@ require 'partials/head.php'
 ?>
 <h1 style= "text-align: center" class="mb-5">Ici ma page base!</h1>
 <?php
+echo '<main class="ps-5">';
 echo '<h2>Les balises</h2>';
 echo '<p class="fst-italic text-secondary"> Ici je suis dans les balises PHP</p>';
 ?>
@@ -27,6 +28,7 @@ print '<p>La différence majeure avec echo est que print n\'accepte qu\'un seul 
     <li>print_r, affiche des informations à propos d'une variable, demanière à ce que'elle soit lisible</li>
     <li>var_dump, affiche des informations structurées d'une variable, y compris son type et sa valeur.</li>
 </ul>
+</main>
 <?php
 require 'partials/footer.php'
 ?>

@@ -3,6 +3,7 @@
 ?>
     <h1 style= "text-align: center" class="mb-5">Les constantes</h1>
 <?php
+    echo '<main class="ps-5">';
     echo '<p>Une constante permet de conserver une valeur sauf que celle-ci ne peut pas être modifiée durant l\'exécution du ou des scripts. Utile pour par exemple conserver les paramètres de connexion à la BDD sans pouvoir les modifier une fois définis.</p>';
     echo '<p>Par convention les constantes sont toujours écrites en majuscules.</br>
     On déclare une constante avec la fonction prédéfinie define()</p>';
@@ -24,6 +25,7 @@
     <button type="button" class="btn btn-warning mt-5">
         <a href="https://www.php.net/manual/fr/language.constants.magic.php#constant.dir">Documentation.php</a>
     </button>
+</main>
 <?php
     require 'partials/footer.php';
 ?>

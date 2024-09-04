@@ -3,6 +3,7 @@
 ?>
 
     <h1 style= "text-align: center" class="mb-5">L'arithmetique en PHP</h1>
+<main class="ps-5">
     <h2>Opérateurs</h2>
 <?php
     $a = 10;
@@ -78,6 +79,7 @@
 
     echo '<p>$i = 0</p>';
     echo '<p>$k = ++$i; </br>// la variable $i est incrémentée de 1, puis elle est retournée : on affecte donc 1 à $k</p>';
+    echo '</main>';
 ?>
 
 <?php

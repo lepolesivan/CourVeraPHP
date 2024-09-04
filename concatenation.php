@@ -3,6 +3,7 @@
 ?>
     <h1 style= "text-align: center" class="mb-5">La concatenation</h1>
 <?php
+    echo '<main class="ps-5">';
     $x = 'Bonjour';
     $y = 'tout le monde !';
 
@@ -40,6 +41,7 @@
     echo '<p>$message</p>';
     //Dans les guillemets, la variable est évaluée : c\'est son contenu qui est affiché
     echo "<p>$message</p>";
+    echo '</main>';
 ?>
 <?php
     require 'partials/footer.php';
