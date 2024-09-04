@@ -1,4 +1,5 @@
 <?php
+$myPage = 'bases';
 require 'partials/head.php'
 ?>
 <h1 style= "text-align: center" class="mb-5">Ici ma page base!</h1>

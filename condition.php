@@ -1,4 +1,5 @@
 <?php
+    $myPage = 'condition';
     require 'partials/head.php';
 ?>
 

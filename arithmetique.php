@@ -1,4 +1,5 @@
 <?php
+    $myPage = 'arithmetique';
     require 'partials/head.php';
 ?>
 

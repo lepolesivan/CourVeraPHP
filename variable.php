@@ -1,4 +1,5 @@
 <?php
+    $myPage = 'variable';
     require 'partials/head.php'
 ?>
     <hgroup style="text-align:center" class="mb-5">
