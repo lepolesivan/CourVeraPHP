@@ -52,6 +52,12 @@
                             if($myPage !== 'tableau'){
                                 echo '<a class="nav-link text-light" href="/tableau.php">Tableau</a>';
                             }  
+                            if($myPage !== 'boucle'){
+                                echo '<a class="nav-link text-light" href="/boucle.php">Boucle</a>';
+                            }  
+                            if($myPage !== 'date'){
+                                echo '<a class="nav-link text-light" href="/date.php">Date</a>';
+                            }  
                         ?>
                     </div>
                 </div>
