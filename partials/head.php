@@ -58,6 +58,9 @@
                             if($myPage !== 'date'){
                                 echo '<a class="nav-link text-light" href="/date.php">Date</a>';
                             }  
+                            if($myPage !== 'inclusion'){
+                                echo '<a class="nav-link text-light" href="/inclusion.php">Inclusion</a>';
+                            }  
                         ?>
                     </div>
                 </div>
